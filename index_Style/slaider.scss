@@ -1,0 +1,82 @@
+.slaider_portada {
+    //propiedades contenedor de las imagnes
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    // transicion de las imagenes
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: all 0.75s;
+    }
+
+    //posicionamiento de las imagenes
+    input[type="radio"] {
+        position: relative;
+        z-index: 100;
+        margin: 10px;
+
+    }
+
+    /* aparecer las imagenes*/
+    input[type="radio"]:checked~img{
+        opacity: 1;
+
+    }
+}
+
+@media (max-width:700px) {
+    .slaider_portada{
+        width: 100%;
+        height: 400px;
+        
+    }
+}
+
+/* dispositivos pequeños */
+@media (min-width:700px) {
+    .slaider_portada{
+        width: 100%;
+        height: 400px;
+
+    }
+}
+
+/* dispositivos medianos */
+@media (min-width:800px) {
+    .slaider_portada{
+        width: 100%;
+        height: 420px;
+
+    }
+}
+
+@media (min-width:990px) {
+    .slaider_portada{
+        width: 100%;
+        height: 450px;
+
+    }
+}
+
+
+/*dispositivos grandes*/
+
+@media (min-width:1200px) {
+    .slaider_portada{
+        width: 100%;
+        height: 600px;
+
+    }
+}
+

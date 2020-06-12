@@ -1,0 +1,195 @@
+footer {
+  width: 100%;
+  font-family: "Indie Flower", cursive;
+  background: black;
+}
+
+footer .partefooter {
+  background: salmon;
+  padding: 50px;
+  width: 100%;
+}
+
+footer .partefooter .titulomapa {
+  color: black;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  padding: 35px 0 15px 0;
+  font-size: 40px;
+}
+
+footer .partefooter .contenidof {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .partefooter .contenidof iframe {
+  margin-top: 40px;
+  border-radius: 15px;
+}
+
+footer .partefooter .contenidof form {
+  width: 450px;
+  background-color: black;
+  padding: 20px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+footer .partefooter .contenidof form input,
+footer .partefooter .contenidof form textarea {
+  width: 100%;
+  margin-top: 20px;
+  padding: 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+}
+
+footer .partefooter .contenidof form textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+footer .partefooter .contenidof form #boton {
+  background: salmon;
+  color: black;
+  padding: 20;
+}
+
+footer .partefooter .contenidof form #boton:hover {
+  cursor: pointer;
+  background: whitesmoke;
+  color: black;
+  padding: 20;
+}
+
+footer .partefooter h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+footer .contenidoiconos {
+  margin-top: 70px;
+}
+
+footer .contenidoiconos .iconosredes {
+  text-align: center;
+}
+
+footer .contenidoiconos .iconosredes .ajuste {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 50px 35px;
+}
+
+footer .contenidoiconos .iconosredes .ajuste img {
+  padding: 25px;
+}
+
+footer .textofooter {
+  padding-top: 8px;
+  width: 100%;
+  height: 80px;
+  font-family: sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 15px;
+  background: salmon;
+}
+
+@media (max-width: 708px) {
+  footer {
+    width: 100%;
+  }
+  footer .partefooter {
+    padding: 20px;
+    width: 100%;
+  }
+  footer .partefooter .contenidof {
+    display: block;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  footer .partefooter iframe {
+    margin-left: 50px;
+    width: 70%;
+  }
+  footer .partefooter input,
+  footer .partefooter textarea {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  footer .partefooter textarea {
+    min-height: 100px;
+    max-height: 100px;
+    max-width: 100%;
+  }
+  footer .contenidoiconos {
+    margin-top: 70px;
+  }
+  footer .contenidoiconos .iconosredes .ajuste {
+    display: block;
+    margin: 50px 35px;
+  }
+  footer .partefooter form {
+    width: 50%;
+    background-color: black;
+    padding: 20px 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  footer {
+    width: 100%;
+  }
+  footer .partefooter {
+    padding: 20px;
+    width: 100%;
+  }
+  footer .partefooter .contenidof {
+    display: block;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  footer .partefooter iframe {
+    margin-left: 50px;
+    width: 70%;
+  }
+  footer .partefooter input,
+  footer .partefooter textarea {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  footer .partefooter textarea {
+    min-height: 100px;
+    max-height: 100px;
+    max-width: 100%;
+  }
+  footer .contenidoiconos {
+    margin-top: 70px;
+  }
+  footer .contenidoiconos .iconosredes .ajuste {
+    display: block;
+    margin: 50px 35px;
+  }
+  footer .partefooter .contenidof form {
+    width: 99%;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.bloquetitulo {
+  font-size: 40px;
+  letter-spacing: 1px;
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  color: salmon;
+}
+
+.bloquetitulo h1 {
+  font-family: "Caveat", cursive;
+}
+
+.bloquetitulo .parrafo_titulo {
+  letter-spacing: 1px;
+  color: whitesmoke;
+  font-size: 26px;
+  margin-top: -30px;
+}
+
+.bloquetitulo .iconoart {
+  padding-top: 55px;
+}
+
+.bloquetitulo1 {
+  width: 100%;
+  display: inline-block;
+  font-size: 35px;
+  letter-spacing: 5px;
+  margin: 0px;
+  padding-top: 35px;
+  text-align: center;
+  color: salmon;
+  font-family: "Indie Flower", cursive;
+  background-image: url(../home_Images/marmol1.jpg);
+  background-attachment: fixed;
+  background-size: 50%;
+}
+
+.bloquetitulo1 .parrafo_titulo1 {
+  letter-spacing: 1px;
+  font-family: cursive;
+  color: black;
+  float: left;
+  font-size: 24px;
+  margin-top: 45px;
+  margin-left: 85px;
+}
+
+.bloquetitulo1 .parrafo_titulo1 hr {
+  width: 600px;
+}
+
+.bloquetitulo1 .video {
+  margin-top: 13px;
+  width: 50%;
+}
+
+.fotografia {
+  text-align: center;
+  font-size: 40px;
+  color: salmon;
+  padding-bottom: 15%;
+  font-family: "Indie Flower", cursive;
+}
+
+.fotografia .fotobob {
+  width: 800px;
+  display: block;
+  margin: 135px auto;
+  border-radius: 45px;
+}
+
+@media (max-width: 800px) {
+  .bloquetitulo1 .parrafo_titulo1 {
+    padding: 10px;
+    font-size: 25px;
+    margin-left: 35px;
+  }
+  .bloquetitulo1 .parrafo_titulo1 hr {
+    width: 200px;
+  }
+  .bloquetitulo1 .video {
+    width: 90%;
+  }
+  .fotografia .fotobob {
+    width: 99%;
+  }
+}
+/*# sourceMappingURL=contenido.css.map */

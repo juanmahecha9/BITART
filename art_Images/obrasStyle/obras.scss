@@ -1,0 +1,113 @@
+$titulos: 'Caveat',
+cursive;
+$texto: 'Indie Flower',
+cursive;
+
+* {
+    box-sizing: border-box; //ajuste de borde y el elemento
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-image: url(../marmol2.jpg);
+}
+
+.bloquetitulo {
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: $titulos;
+    color: black;
+    margin: 0;
+
+    .ptitulo {
+        font-size: 25px;
+        margin-top: -40px;
+    }
+}
+
+.content-two {
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+
+    .container {
+        width: 100%;
+        height: 50%;
+        display: flex;
+
+        flex-wrap: wrap; //separar las imagenes
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 60px;
+
+        .card {
+            width: 400px;
+            height: 600px;
+            border-radius: 8px;
+            box-shadow: 0 2px 2px black;
+            overflow: hidden;
+            margin: 0 10px;
+            text-align: center;
+            transition: all 0.25s;
+
+            img {
+                //width: 400px;
+                //height: 350px;
+                height: 50%;
+            }
+
+            h4 {
+                font-weight: 600;
+
+            }
+
+            p {
+                padding: 0 1rem;
+                font-size: 16px;
+                font-weight: 300;
+            }
+
+            a {
+                font-weight: 500;
+                text-decoration: none;
+                color: blue;
+            }
+        }
+
+        .card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 2px 2px black;
+
+        }
+
+    }
+}
+
+
+
+
+@media (max-width: 800px) {
+    .content-two {
+
+        .container {
+            .card {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                margin-bottom: 20px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+
+}
